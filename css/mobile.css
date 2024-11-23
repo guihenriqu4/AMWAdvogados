@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    font-family: "Inter Semi Bold", sans-serif;
+    background-color: white;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-top {
+    background-image: url("./img/logoAMW.png");
+    background-position: center;
+    width: 100vw;
+    height: fit-content;
+}
+
+.container-top-header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-top-page-title {
+    width: fit-content;
+    align-self: center;
+}
+
+.container-top-nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+}
+
+.container-top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-top-subtext {
+    text-align: justify;
+    margin: 0 8vw;
+    width: 70vw;
+}
+
+.container-top-contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    width: 230px;
+    height: 7vh;
+    margin: 4vh auto;
+}
+
+.container-top-contact-img {
+    width: 30px;
+    height: 30px;
+    align-content: center;
+}
+
+.container-top-contact-link {
+    text-decoration: none;
+    color: white;
+}
+
+.container-body {
+    color: black;
+}
+
+.container-body-qualities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.container-body-qualities-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4vh auto;
+}
+
+.quality-description {
+    text-align: justify;
+    padding: 0 5vw;
+    color: gray;
+}
+
+.container-body-spam {}
+
+.container-body-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-body-about-title {
+    margin: 4vh 4vw;
+}
+
+.container-body-about-group1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-body-about-group2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-body-about-group3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-group-image {
+    width: 90vw;
+    align-self: center;
+}
+
+.about-group-name {
+    margin: 0 4vw;
+}
+
+.about-group-description {
+    margin: 1vh 4vw 5vh;
+}
+
+.container-body-about-text {
+    align-self: center;
+}
+
+.container-body-about-description {
+    text-align: justify;
+    margin: 1vh 4vw;
+}
+
+.container-body-services {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+}
+
+.container-body-services-title {
+    margin: 4vh 4vw;
+}
+
+.container-body-services-group {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    margin: 5vh 4vw;
+}
+
+.services-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: deepskyblue;
+    width: 80vw;
+    height: 10vh;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.services-item {
+    background-color: white;
+    width: 80vw;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.container-body-services-contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    width: 230px;
+    height: 7vh;
+    margin: 4vh auto;
+}
+
+.container-body-services-contact-img {
+    width: 30px;
+    height: 30px;
+    align-content: center;
+}
+
+.container-body-services-contact-link {
+    text-decoration: none;
+    color: white;
+}
+
+.container-body-statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vh;
+    background-color: deepskyblue;
+    color: white;
+}
+
+.statistics-number {
+    text-align: center;
+    font-family: "Verdana";
+    margin: 2vh 0 0;
+}
+
+.statistics-description {
+    margin: 0 0 2vh;
+}
+
+.container-body-social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-body-social-media-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    margin: 4vh auto;
+}
+
+.social-media-icon {
+    width: 50vw;
+}
+
+.social-media-name {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.line-separator {
+    width: 80vw;
+    color: #F4F4F4;
+}
+
+.container-body-avaliations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-body-avaliations-group {
+    display: flex;
+    flex-direction: column;
+    border: #F4F4F4 solid 1px;
+    border-radius: 10px;
+    width: 70vw;
+    margin: 4vh auto;
+    padding: 10px;
+}
+
+.avaliator-group {
+    display: flex;
+}
+
+.container-body-localization-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4vh auto;
+    gap: 3vh;
+}
+
+
+.localization-title {
+    margin: 1vh 4vw;
+}
+
+.localization-description {
+    margin: 1vh 4vw;
+    text-align: justify;
+}
+
+.container-body-localization-map {
+    width: 80vw;
+}
+
+.container-body-localization-map-frame {
+    width: 80vw;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: black;
+    width: 100vw;
+}
+
+.container-footer-page-title {
+    width: 100%;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: 1 / 1 / 4 / 2;
+    margin: 1vh 4vw;
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.footer-media-icon {
+    width: 10vw;
+    height: 5vh;
+    align-self: end;
+}
