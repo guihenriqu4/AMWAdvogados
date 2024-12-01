@@ -19,11 +19,6 @@
         gap: 3vw;
     }
 
-    .container-top-section {
-        margin: 20vh auto;
-        gap: 2vh;
-    }
-
     .container-top-section h1{
         font-size: 3em;
     }
@@ -106,11 +101,11 @@
         grid-area: 2 / 1 / 4 / 2;
         display: flex;
         flex-direction: column; /* Se necessário organizar itens verticalmente */
-        justify-content: space-between; /* Centraliza verticalmente */
+        justify-content: center; /* Centraliza verticalmente */
     }
 
     #img-about1 {
-        width: 65%;
+        width: 40%;
     }
 
     .container-body-about-group2 {
