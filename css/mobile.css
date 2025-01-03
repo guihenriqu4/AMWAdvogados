@@ -168,6 +168,15 @@ body {
     margin: 1vh 4vw 5vh;
 }
 
+.container-body-about-video {
+    align-self: center;
+    margin: 5vh auto;
+}
+
+.container-body-about-video video {
+    width: 70vw;
+}
+
 .container-body-about-text {
     align-self: center;
 }
